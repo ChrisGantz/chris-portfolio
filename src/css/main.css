@@ -2,11 +2,24 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: "Volkhov", serif;
+}
+
+nav {
+  padding: 35px 20px;
+}
+
 a {
   display: block;
   margin-bottom: 10px;
+  text-decoration: none;
+  color: #3531c7;
 }
-
+a:visited {
+  color: #ca8de8;
+}
 p {
   margin-bottom: 0;
 }
@@ -15,3 +28,64 @@ ul > p {
   margin-bottom: 10px;
   margin-top: 5px;
 }
+
+.my-info {
+  width: 100%;
+  background-color: #c1514f;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Permanent Marker", cursive;
+  font-size: 35px;
+}
+h2 {
+  font-family: "Permanent Marker", cursive;
+  margin-bottom: 0;
+}
+nav > h2 {
+  font-size: 15px;
+  margin: 0;
+}
+.technologies {
+  padding-bottom: 50px;
+  margin: 0;
+  background-color: #5f6b6fcf;
+}
+
+.project {
+  background-color: #234677ad;
+}
+
+.about-me {
+  background-color: #367a92;
+  padding-bottom: 20px;
+}
+
+.my-name {
+  display: inline-block;
+}
+
+.contact-info {
+  float: right;
+  margin-top: -29px;
+}
+
+.first-h2 {
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 675px) {
+  .contact-info {
+    float: none;
+    margin: 0;
+  }
+}
+
+.fontSize {
+  font-size: 40px;
+}
+
+/* font-family: 'Permanent Marker', cursive;
+font-family: 'Volkhov', serif;
+font-family: 'Quattrocento', serif; */

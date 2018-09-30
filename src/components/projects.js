@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <section>
+    <section className="project row">
       <h2>Projects</h2>
       <ul>
         <li>Writing Concepts</li>

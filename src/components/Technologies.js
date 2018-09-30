@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Technologies() {
   return (
-    <section>
+    <section className="row technologies">
       <h2>Technologies</h2>
       <ul>
         <li>
@@ -25,7 +25,6 @@ export default function Technologies() {
             <li>React.js(Redux, Thunk, fetch, router)</li>
             <li>Node.js</li>
             <li>Express.js</li>
-            <li>Node.js</li>
           </ul>
         </li>
         <li>
