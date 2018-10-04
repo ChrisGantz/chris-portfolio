@@ -3,7 +3,7 @@ import React from "react";
 export default function Technologies() {
   return (
     <section className="technologies">
-      <div className="row">
+      <div className="row padding-top-bot">
         <h2>Technologies</h2>
         <ul>
           <li>

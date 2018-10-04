@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <section className="about-me">
-      <div className="row">
+      <div className="row padding-top-bot">
         <h2>About Me</h2>
         <p>
           Hello! My name is Christopher or chris for short. I am full stack

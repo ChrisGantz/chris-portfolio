@@ -3,7 +3,7 @@ import writingConcept from "../webPic/landingpage.jpg";
 export default function Projects() {
   return (
     <section className="project">
-      <div className="row">
+      <div className="row padding-top-bot">
         <h2>Projects</h2>
         <ul className="projects-list">
           <li className="col-6 each-project">
