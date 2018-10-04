@@ -27,7 +27,8 @@ export default function AboutMe() {
         am a full stack developer although I would prefer to specialize creating
         the back-end. My ultimate goal is to work with artificial intelligence,
         machine learning, neuronetworks, and augmented reality for me that is
-        the goal! and I believe is the future.
+        the goal! and I believe is the future.{" "}
+        <i className="fa fa-connectdevelop" />
       </p>
     </section>
   );
