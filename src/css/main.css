@@ -117,6 +117,11 @@ nav > h2 {
   margin: 0 auto;
   width: 80%
 }
+@media only screen and (min-width: 1400px) {
+  .each-project {
+    width: 65%;
+  }
+}
   .about-me {
     width: 80%;
     margin: 0 auto;
@@ -194,4 +199,5 @@ font-family: 'Quattrocento', serif;
 #234677ad
 #0a182cad
 #131c1fcf
+#020f5fad
 */
