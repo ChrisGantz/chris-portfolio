@@ -1,9 +1,9 @@
 import React from "react";
 import ContactBar from "./contact-bar";
 import AboutMe from "./about-me";
-import Technologies from "./Technologies";
 import Projects from "./projects";
 import Background from "./background";
+import Footer from "./footer";
 
 export default function LandingPage(props) {
   return (
@@ -13,7 +13,7 @@ export default function LandingPage(props) {
         <ContactBar />
         <AboutMe />
         <Projects />
-        <Technologies />
+        <Footer />
       </main>
     </div>
   );

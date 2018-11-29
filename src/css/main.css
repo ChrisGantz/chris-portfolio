@@ -28,6 +28,11 @@ a:visited {
 
 p {
   margin-bottom: 0;
+  letter-spacing: .5px;
+  font-family: 'Gruppo', cursive;
+  font-size: 20px;
+  /* font-family: 'Cinzel', serif; */
+  
 }
 
 ul > p {
@@ -91,7 +96,7 @@ nav > h2 {
 }
 
 .project {
-  /* background-color: #234677ad; */
+  background-color: #340e47ad;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,10 +106,11 @@ nav > h2 {
   .project {
     width: 80%;
     margin: 80px auto;
+    border-radius: 25px;
   }
   .each-project {
     flex-direction: row;
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
   }
   .about-projects {
@@ -117,9 +123,10 @@ nav > h2 {
   margin: 0 auto;
   width: 80%
 }
+
 @media only screen and (min-width: 1400px) {
   .each-project {
-    width: 65%;
+    width: 75%;
   }
 }
   .about-me {
@@ -127,10 +134,18 @@ nav > h2 {
     margin: 0 auto;
     border-radius: 25px;
   }
+  .contact-me {
+    width: 80%;
+    margin: 0 auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
 }
 
 img {
   max-height: 400px;
+  width: 281px;
+  min-width: 280px;
 }
 
 .demo-code {
@@ -193,6 +208,15 @@ img {
   width: 100%
 }
 
+.contact-me {
+  display: flex;
+  flex-direction:  column;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 50px;
+  background: #234677ad
+}
+
 /* font-family: 'Permanent Marker', cursive;
 font-family: 'Volkhov', serif;
 font-family: 'Quattrocento', serif;
@@ -200,4 +224,7 @@ font-family: 'Quattrocento', serif;
 #0a182cad
 #131c1fcf
 #020f5fad
+//  background: #340e47ad;
+    border-radius: 25px;
+
 */
