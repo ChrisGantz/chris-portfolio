@@ -71,11 +71,13 @@ ul > p {
 
 h1 {
   margin: 0;
-  font-family: "Permanent Marker", cursive;
+  font-family: inherit;
   font-size: 35px;
+  font-weight: bold;
+  
 }
 h2 {
-  font-family: "Permanent Marker", cursive;
+  font-family: inherit;
   margin-bottom: 0;
 }
 
@@ -153,8 +155,8 @@ img {
 }
 
 .about-me {
-  background-color: #0a182cad;
-  /* background-color: #367a92; */
+  /* background-color: #0a182cad; */
+  background-color: #0a182cd9;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -215,6 +217,12 @@ img {
   padding: 20px;
   padding-bottom: 50px;
   background: #234677ad
+}
+
+.contact-me-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
 }
 
 /* font-family: 'Permanent Marker', cursive;

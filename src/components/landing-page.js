@@ -4,11 +4,15 @@ import AboutMe from "./about-me";
 import Projects from "./projects";
 import Background from "./background";
 import Footer from "./footer";
+import Particles from "react-particles-js";
+import BackgroundParticles from "./backgroundparticles";
+
+
 
 export default function LandingPage(props) {
   return (
     <div className="app">
-      <Background />
+    <BackgroundParticles />
       <main className="container">
         <ContactBar />
         <AboutMe />

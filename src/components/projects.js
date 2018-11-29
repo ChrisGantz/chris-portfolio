@@ -12,7 +12,7 @@ export default function Projects() {
           <li className="each-project">
             <img src={writingConcept} />
             <div className="about-projects">
-              <h4>Writing Concepts</h4>
+              <h3>Writing Concepts</h3>
               <p>
                 Writing Concepts allows you to create posts about ideas you may have
             for a story. You can comment like and dislike a post.
@@ -27,7 +27,7 @@ export default function Projects() {
           <li className="each-project" >
             <img src={podquest} />
             <div className="about-projects">
-              <h4>PodQuest</h4>
+              <h3>PodQuest</h3>
               <p className="info-app">
                 Love listening to podcasts? Then this app is for you! keep track of your favorite episodes or subscribe to a channel altogether.
               </p>
@@ -41,7 +41,7 @@ export default function Projects() {
           <li className="each-project">
             <img src={morsecode} />
             <div className="about-projects">
-              <h4>Learn Morse</h4>
+              <h3>Learn Morse</h3>
               <p>
                 Have fun learning Morse Code with this app! its uses spaced repititon algorithm to help you learn!
               </p>
@@ -56,7 +56,7 @@ export default function Projects() {
           <li className="each-project">
             <img src={snakegame} />
             <div className="about-projects">
-              <h4>Writing Concepts</h4>
+              <h3>Writing Concepts</h3>
               <p>
                 I was tasked with learning a new language and applying what I learned within a week I choose python and made a game using pygame.
                 It was very fun and I will be looking more into python because of it!

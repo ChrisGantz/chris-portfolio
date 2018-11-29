@@ -25,7 +25,7 @@ export class Background extends React.Component {
           letters[index] = y_pos > 758 + Math.random() * 1e4 ? 0 : y_pos + 10;
         });
       };
-      setInterval(draw, 60);
+      setInterval(draw, 80);
     }
 
     var canvas = this.refs.canvas;
