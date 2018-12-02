@@ -8,8 +8,8 @@ export default function Projects() {
   return (
     <section className="project">
         <h2>Projects</h2>
-        <ul className="projects-list">
-          <li className="each-project">
+        <section className="projects-list">
+          <div className="each-project">
             <img src={writingConcept} />
             <div className="about-projects">
               <h3>Writing Concepts</h3>
@@ -23,8 +23,8 @@ export default function Projects() {
               <a href="https://writing-concepts.herokuapp.com/" target="_blank" rel="noopener noreferrer">- Demo</a>
               </p>
             </div>
-          </li>
-          <li className="each-project" >
+          </div>
+          <div className="each-project" >
             <img src={podquest} />
             <div className="about-projects">
               <h3>PodQuest</h3>
@@ -37,8 +37,8 @@ export default function Projects() {
               <a href="https://podquest-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">- Demo</a>
             </p>
             </div>
-          </li>
-          <li className="each-project">
+          </div>
+          <div className="each-project">
             <img src={morsecode} />
             <div className="about-projects">
               <h3>Learn Morse</h3>
@@ -52,9 +52,9 @@ export default function Projects() {
               <a href="https://morse-learning-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">- Demo</a>
             </p>
             </div>
-          </li>
-          <li className="each-project">
-            <img src={snakegame} />
+          </div>
+          <div className="each-project">
+            <img className="snake-game-img" src={snakegame} />
             <div className="about-projects">
               <h3>Writing Concepts</h3>
               <p>
@@ -65,8 +65,8 @@ export default function Projects() {
               <a href="https://github.com/ChrisGantz/snake-game" target="_blank" rel="noopener noreferrer"> Code </a>
             </p>
             </div>
-          </li>
-        </ul>
+          </div>
+        </section>
     </section>
   );
 }
