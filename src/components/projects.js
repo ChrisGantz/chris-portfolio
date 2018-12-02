@@ -17,7 +17,7 @@ export default function Projects() {
                 Writing Concepts allows you to create posts about ideas you may have
             for a story. You can comment like and dislike a post.
               </p>
-              <p>Tech Used: HTML, CSS, React, MongoDB, Express, and Node</p>
+            <p><b className="color-tech">Tech Used:</b> HTML, CSS, React, MongoDB, Express, and Node</p>
               <p className="demo-code">
               <a href="https://github.com/ChrisGantz/stories-client" target="_blank" rel="noopener noreferrer">Code&nbsp;</a>
               <a href="https://writing-concepts.herokuapp.com/" target="_blank" rel="noopener noreferrer">- Demo</a>
@@ -31,7 +31,7 @@ export default function Projects() {
               <p className="info-app">
                 Love listening to podcasts? Then this app is for you! keep track of your favorite episodes or subscribe to a channel altogether.
               </p>
-            <p>Tech Used: HTML, CSS, React, MongoDB, Express, and Node</p>
+            <p><b className="color-tech">Tech Used:</b> HTML, CSS, React, MongoDB, Express, and Node</p>
             <p className="demo-code">
               <a href="https://github.com/thinkful-ei23/podquest-server" target="_blank" rel="noopener noreferrer">Code&nbsp;</a>
               <a href="https://podquest-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">- Demo</a>
@@ -45,7 +45,7 @@ export default function Projects() {
               <p>
                 Have fun learning Morse Code with this app! its uses spaced repititon algorithm to help you learn!
               </p>
-            <p>Tech Used: HTML, CSS, React, MongoDB, Express, and Node</p>
+            <p><b className="color-tech">Tech Used:</b> HTML, CSS, React, MongoDB, Express, and Node</p>
             <p className="demo-code">
               <a href="https://github.com/thinkful-ei23/SRC-Morse-Client" target="_blank" rel="noopener noreferrer">Client code&nbsp;-</a>
               <a href="https://github.com/thinkful-ei23/SRC-Morse-Client" target="_blank" rel="noopener noreferrer">Server code&nbsp;</a>

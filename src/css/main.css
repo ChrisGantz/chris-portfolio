@@ -55,6 +55,7 @@ ul > p {
 
 .each-project {
   text-align: center;
+  padding: 20px 0;
 }
 
 .about-projects {
@@ -65,18 +66,22 @@ ul > p {
   text-align: center;
 }
 
+.demo-code {
+  display: flex;
+  justify-content: center;
+}
 @media only screen and (min-width: 1000px) {
   .project {
     width: 80%;
     margin: 50px auto;
     border-radius: 20px;
+    padding: 20px 0;
   }
 
   .each-project {
     max-width: 50%;
     text-align: center;
     padding: 30px;
-
   }
   .about-projects {
     
@@ -87,10 +92,6 @@ ul > p {
   .width-eighty {
   margin: 0 auto;
   width: 80%;
-}
-.demo-code {
-  display: flex;
-  justify-content: center;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -215,6 +216,7 @@ img {
 }
 
 .contact-me {
+  text-align: center;
   display: flex;
   flex-direction:  column;
   align-items: center;
@@ -227,6 +229,10 @@ img {
   display: flex;
   justify-content: space-between;
   width: 120px;
+}
+
+.color-tech {
+  color: limegreen;
 }
 
 /* font-family: 'Permanent Marker', cursive;
