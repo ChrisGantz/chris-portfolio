@@ -56,7 +56,7 @@ export default function Projects() {
           <div className="each-project">
             <img className="snake-game-img" src={snakegame} />
             <div className="about-projects">
-              <h3>Writing Concepts</h3>
+              <h3>Snake Game</h3>
               <p>
                 I was tasked with learning a new language and applying what I learned within a week I choose python and made a game using pygame.
                 It was very fun and I will be looking more into python because of it!
