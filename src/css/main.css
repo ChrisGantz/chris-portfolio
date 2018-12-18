@@ -13,7 +13,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: #495a72d9;
+  background: rgba(73, 90, 114, 0.85);
 }
 
 a {
@@ -63,7 +63,7 @@ ul > p {
   
 }
 .project {
-  background-color: #340e47ad;
+  background-color: rgba(52, 14, 71, 0.7);
   text-align: center;
 }
 
@@ -165,7 +165,7 @@ img {
 
 .about-me {
   /* background-color: #0a182cad; */
-  background-color: #0a182cd9;
+  background-color: rgba(10, 24, 44, 0.85);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -226,7 +226,7 @@ img {
   align-items: center;
   padding: 20px;
   padding-bottom: 50px;
-  background: #234677ad
+  background: rgba(35, 70, 119, 0.7);
 }
 
 .contact-me-bottom {
