@@ -11,7 +11,7 @@ const particleStyle = {
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#04ed10"
     },
     "shape": {
       "type": "circle",
@@ -20,7 +20,7 @@ const particleStyle = {
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 8
       },
       "image": {
         "src": "img/github.svg",
@@ -39,7 +39,7 @@ const particleStyle = {
       }
     },
     "size": {
-      "value": 3,
+      "value": 3.5,
       "random": true,
       "anim": {
         "enable": false,

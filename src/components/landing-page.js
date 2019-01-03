@@ -12,7 +12,7 @@ import BackgroundParticles from "./backgroundparticles";
 export default function LandingPage(props) {
   return (
     <div className="app">
-    <BackgroundParticles />
+    <Background />
       <main className="container">
         <ContactBar />
         <AboutMe />
