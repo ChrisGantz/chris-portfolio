@@ -81,6 +81,13 @@ ul > p {
   nav {
     background: none;
   }
+  /* Rather than using flex could use css grid */
+  /* .projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 30px;
+  } */
 
   .each-project {
     max-width: 50%;
@@ -91,7 +98,7 @@ ul > p {
     
   }
   img {
-    max-height: 400px;
+    padding: 50px;
   }
   .width-eighty {
   margin: 0 auto;
@@ -154,9 +161,7 @@ nav > h2 {
 
 
 img {
-  max-height: 400px;
-  width: 281px;
-  min-width: 280px;
+  width: 100%;
 }
 
 .snake-game-img {

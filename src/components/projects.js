@@ -1,7 +1,7 @@
 import React from "react";
-import writingConcept from "../webPic/landingpage.jpg";
+import writingConcept from "../webPic/writingprompts.jpg";
 import podquest from "../webPic/podquest.jpg";
-import morsecode from "../webPic/morse-code.jpg";
+import morsecode from "../webPic/morseCode.jpg";
 import snakegame from "../webPic/snakegame.jpg";
 
 export default function Projects() {
