@@ -1,17 +1,18 @@
 import React from 'react';
 import Particles from "react-particles-js";
+import nasaImage from "../webPic/nasa-89125-unsplash.jpg";
 
 const particleStyle = {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 150,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#04ed10"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
@@ -74,7 +75,7 @@ const particleStyle = {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
+        "enable": true,
         "mode": "repulse"
       },
       "onclick": {
@@ -98,7 +99,7 @@ const particleStyle = {
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
+        "distance": 100,
         "duration": 0.4
       },
       "push": {
@@ -119,6 +120,10 @@ export default function BackgroundParticles() {
       style={{
         width: '100%',
         background: 'black'
+        // backgroundImage: `url(${nasaImage})`,
+        // backgroundSize: 'cover',
+        // backgroundRepeat: 'no-repeat',
+        // backgroundPosition: 'center'
       }}
     />
   )

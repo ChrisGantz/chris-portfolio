@@ -48,7 +48,7 @@ export default function Projects() {
             <p><b className="color-tech">Tech Used:</b> HTML, CSS, React, MongoDB, Express, and Node</p>
             <p className="demo-code">
               <a href="https://github.com/thinkful-ei23/SRC-Morse-Client" target="_blank" rel="noopener noreferrer">Client code&nbsp;-</a>
-              <a href="https://github.com/thinkful-ei23/SRC-Morse-Client" target="_blank" rel="noopener noreferrer">Server code&nbsp;</a>
+              <a href="https://github.com/thinkful-ei23/SRC-Morse-Server" target="_blank" rel="noopener noreferrer">Server code&nbsp;</a>
               <a href="https://morse-learning-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">- Demo</a>
             </p>
             </div>
